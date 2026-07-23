@@ -226,7 +226,7 @@ It may seem with all these pitfalls that perhaps using an Agentic AI is not such
 **To do: Rewrite rules 3 and 4 in non-AI tone**
 
 
-### Rule 5: Step back and Meta-vate
+### Rule 5: Step back to Meta-vate
 
 
 We can step back from prompt-response cycles to take advantage of the simulation of human communication built into generative AI. The following are illustrative prompts.
@@ -255,8 +255,29 @@ We can step back from prompt-response cycles to take advantage of the simulation
 The first rule for writing a computer program is *Close the laptop lid and take out a clean sheet of paper and a sharp pencil.*
 
 
+**Content**
+
 
 ### Rule 7: Test test test
 
 
+**Content**
+
+
 ## Part 3: Activities
+
+
+Use an Agentic AI to...
+
+
+- investigate / learn about / evaluate data security
+    - Objective: Tied to the particular data system you choose
+- explore a topic you understand in some depth
+    - Objective: Evaluate the AI Agent's capacity to contribute
+- locate, download and visualize some publicly available data
+    - Investigate API and MCP servers
+    - Objective: Evaluate the Agentic AI's capacity to transform a question ('What is this data telling us?') into a known quantity that could inform and advance our research agenda.
+- learn how to create and make use of effective steering / guardrail content
+
+
+To do: Add some additional guidance sub-bullets / topics to Activities.
