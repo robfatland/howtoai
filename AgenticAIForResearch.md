@@ -4,13 +4,13 @@
 ## Contents
 
 
-- [Part 1: The Agentic AI Proposition](#part-1-the-agentic-ai-proposition)
+- [Part 1: The agentic AI Proposition](#part-1-the-agentic-ai-proposition)
   - [Case studies](#case-studies)
-  - [Pivot to the use of Agentic AI](#pivot-to-the-use-of-agentic-ai)
+  - [Pivot to the use of agentic AI](#pivot-to-the-use-of-agentic-ai)
   - [Rule 1: The 10-1-5 Efficiency Adjustment](#rule-1-the-10-1-5-efficiency-adjustment)
   - [Rule 2: Stupidity freedom](#rule-2-stupidity-freedom)
 - [Part 2: Digging in](#part-2-digging-in)
-  - [An Agentic AI Framework](#an-agentic-ai-framework)
+  - [An agentic AI Framework](#an-agentic-ai-framework)
   - [Rule 3: Context engineering](#rule-3-our-most-important-tactical-ai-skill-is-context-engineering)
   - [Rule 4: Failure modes](#rule-4-agentic-ai-has-failure-modes)
   - [Rule 5: Step back to Meta-vate](#rule-5-step-back-to-meta-vate)
@@ -19,15 +19,15 @@
 - [Part 3: Activities](#part-3-activities)
 
 
-## Part 1: The Agentic AI Proposition
+## Part 1: The agentic AI proposition
 
 
-Agentic AI is treated here as an efficiency tool: Both in terms of tasks we know and in terms of opportunities and directions that may be "out of sight" for now. The "Research Context" of the title is informed by real programs at the University of Washington. Before elaborating some case studies I want to emphasize common themes:
+Agentic AI is treated here as an efficiency tool: Both in terms of tasks we know and in terms of opportunities and directions that may be "out of sight" for now. The "Research Context" of the title is informed by real programs at the University of Washington. Commonly research is...
 
 
-- Challenging: We choose research problems that are *complex* (but--we hope--tractable).
-- Worthwhile: We regard the work as *important*, worth our time and effort.
-- Communal: We benefit from dissemination and sharing of information and ideas with colleagues.
+- Challenging: We choose research problems that are *complex* (but--we hope--tractable)
+- Worthwhile: We regard the work as *important*, worth our time and effort
+- Communal: We benefit from dissemination and sharing of information and ideas with colleagues
 
 
 ### Case studies
@@ -81,35 +81,28 @@ Professor Wang is investigating whether LLM abstention — a model's ability to 
 > Direct focus on the behavior of Language Models.
 
 
-
-### Pivot to the use of Agentic AI
-
-
-The case studies provided above are intended to give a sense of *research context* where an Agentic AI might come in to play. To pivot to the rather deep topic of "How to..." I told the **Agentic AI** that I work with to construct three tips on how to use it when doing research. To make the ensuing remarks clear: The Agentic AI system I use goes by the brand name `kiro`. It was developed and released by Amazon Web Services as an adaptation of the VS Code IDE. 
+### Pivot to the use of agentic AI
 
 
-Here are the tips: 
+The case studies above are exemplary research programs. Each research team is aware of recent advances in agentic AI proficiency, usually in terms of writing code, summarizing research papers and other research activities.  This awareness leads researchers to contemplate, regardless of their domain of inquiry: "Is agentic AI something we can use productively? If we suspect the answer is *yes*: What skills and methods should we learn on that path?" To start off this response, I issued a prompt to the agentic AI that I use: "Give three 'best practice' tips for how a researcher should approach working with agentic AI." (The agentic AI I use is a variant of the VS Code IDE called "kiro".) It responded:
 
 
-* Use specs to decompose your research question before writing code.
-* Steer the AI with your domain knowledge.
-* Treat the conversation as an iterative lab notebook.
+* Use specifications to decompose your research question before writing code
+* Steer the AI with your domain knowledge
+* Treat the conversation as an iterative lab notebook
 
 
-Agentic AI appears to be a useful tool with a capacity for both direct tactical response and introspective, strategic behavior. (To acknowledge the philosophical situation for a moment: I use terms like *behavior* as shorthand for a *trick* or *simulacrum* or *apparent fluency* that emerges from some weighted arithmetic.) The underlying language model is built on a deep index of our collective knowledge base; so there is some good potential here. There are also two potential down sides I want to emphasize: First there is the *cost* of using this tool in the form of an associated learning curve. Second there is an intrinsic *risk* of a bad outcome arising from over-reliance or other forms of misuse. 
+As a plausible initial step we might concede that agentic AI is capable of both tactical and strategic responses, sufficient encouragement to press on. The purpose of this document, then, is to illustrate value, cost and risk in working with agentic AI in the context of research. *Research* usually means data → analysis, hence *analytic methods* and usually *coding* to implement those methods. *Coding* in turn implies a *programming language* and *supporting compute infrastructure*: processing power, storage, networking. So there are many gears in motion.  Even if the specifics of coding are not part of the picture for a given project, I will assert without proof that the research paradigm can inform how we learn to use agentic AI effectively. I will also take the liberty of occasionally calling out further assertions, such as...
 
 
-The purpose of this document is to illustrate value, cost and risks of Agentic AI use in the context of research. *Research* usually means *data* and that in turn means *analysis* which means *methods* and often *coding* to implement those methods. *Coding* in turn implies *some programming language* and *supporting compute infrastructure*. So there are a large number of gears in motion.  My sub-thesis is that even if we are *not* writing code, the research context informs learning to use AI effectively. 
-
-
-> Assertion: Effective AI use has two components. First: Doing necessary tasks in less time. Second: Doing things that we previously ruled out or didn't consider or didn't know were possible. This is the expansion component. This writeup will attempt to describe AI skill development while trying to minimize hyperbole.
+> Assertion: Effective agentic AI use has two components: Doing necessary tasks well in less time, and doing things that we previously ruled out, didn't consider, or didn't know were possible.
 
 
 
-### Rule 1: The 10-1-5 Efficiency Adjustment
+### Rule 1: The 10-1-5 Efficiency Rule
 
 
-Using AI incurs an **accountability deficit** that reduces perceived efficiency from an apparent factor of 10 to a factor of 2. The 10-1-5 rule states: This task will take me 10 hours. But wait! The Agentic AI has completed it in 1 hour, a factor of 10 improvement in efficiency. But this miracle has also incurred an accountability deficit that will take me an additional 4 hours to resolve. My efficiency went from 10x to 2x. Still acceptable. 
+Using AI incurs an **accountability deficit** that reduces perceived efficiency from an apparent factor of 10 to a factor of 2. The 10-1-5 rule states: This task will take me 10 hours. But wait! The agentic AI has completed it in 1 hour, a factor of 10 improvement in efficiency. But this miracle has also incurred an accountability deficit that will take me an additional 4 hours to resolve. My efficiency went from 10x to 2x. Still acceptable. 
 
 
 An accountability deficit means: If I use AI-produced results without understanding them and they prove to be *wrong* and someone holds me accountable, then I could be scolded or subjected to derisive laughter or fired. For a researcher, even worse: I might have to retract my paper.
@@ -122,13 +115,13 @@ An accountability deficit means: If I use AI-produced results without understand
 ### Rule 2: Stupidity freedom
 
 
-> Assertion: The most important use of AI is as a learning tool. 
+> Assertion: The most important use of AI is learning.
 
 
-Using Agentic AI to learn requires a shift of one's circa 2002 Google search behavior to a new mode of extended conversation. When we converse with another human we ascribe intelligence to that person. Conversely anything exhibiting *intelligent behavior* is easy to regard as human, thus the conversation (between humans) becomes subject to the rules of social interaction. One such rule is 'Do not ask the same question five times in a row.' But with a little practice this polite habit changes in working with Agentic AI. 
+Using agentic AI to learn requires a shift of one's circa 2002 Google search behavior to a new mode of extended conversation. When we converse with another human we ascribe intelligence to that person. Conversely anything exhibiting *intelligent behavior* is easy to regard as human, thus the conversation (between humans) becomes subject to the rules of social interaction. One such rule is 'Do not ask the same question five times in a row.' But with a little practice this polite habit changes in working with agentic AI. 
 
 
-If I am asking a car mechanic about the design and function of a cam shaft, I will monitor how many stupid questions I ask. When I get up to about ten questions I might become aware that I am starting to try the mechanic's patience. In contrast, with an Agentic AI I can be as intensely, deeply stupid as I need to be for as long as it takes comprehension to dawn. There is no second person to get frustrated, bored, annoyed or angry with me.
+If I am asking a car mechanic about the design and function of a cam shaft, I will monitor how many stupid questions I ask. When I get up to about ten questions I might become aware that I am starting to try the mechanic's patience. In contrast, with an agentic AI I can be as intensely, deeply stupid as I need to be for as long as it takes comprehension to dawn. There is no second person to get frustrated, bored, annoyed or angry with me.
 
 
 To do: Conclude Part 1 by reconnecting the case studies with what we have so far in terms of efficiency and learning.
@@ -137,69 +130,105 @@ To do: Conclude Part 1 by reconnecting the case studies with what we have so far
 ## Part 2: Digging in
 
 
-Part 1 introduced Agentic AI use as a skill. Here we will articulate strategies and examples.
+Part 1 introduced agentic AI use as a skill. Here we will articulate strategies and examples.
 
 
 
-### An Agentic AI Framework
+### An agentic AI Framework
 
 
-Building a working picture of how an Agentic AI operates requires some jargon. Without it we'll have a harder time keeping up with new developments — and the world of AI is nothing if not new developments. Here is a framework built on four components plus one critical constraint.
+Building a working picture of how an agentic AI operates requires some jargon. Without it we'll have a harder time keeping up with new developments — and the world of AI is nothing if not new developments. Here is a framework built on four components plus one critical constraint. Implicitly we are the User of the agentic AI system.
 
 
-***1. The Model***
-
-*Usually a Large Language Model (LLM). The Model receives a bundle of text — your prompt, the conversation history, system instructions, and other context — collectively the **payload**. It processes this payload and produces a response. That response goes to the Harness (see below), not directly to your screen. The Model might be telling the Harness to do something (run a command, read a file) rather than passing a message along to you. This is what makes the system "agentic" rather than merely conversational: The Model can request actions, not just generate text.*
-
-*A crucial detail: The Model is **stateless**. It retains nothing between exchanges. Every time the Harness sends a new payload, it must include the entire conversation history — the Model has no memory of its own. This is why long conversations eventually hit a size limit called the **context window**. When the payload exceeds the context window, the system must either compress the history or start fresh. (This connects back to Rule 3.10: knowing when to start a new session.)*
+#### Part 1 The Model
 
 
-***2. The Harness***
-
-*The orchestrating program that sits between you and the Model. In our case, this is the `kiro` IDE running on your laptop. The Harness is responsible for:*
-
-- *Assembling the payload (your prompt + conversation history + system instructions + any injected context)*
-- *Sending the payload to the Model via an authenticated connection (which typically involves API keys and billing — someone is paying per token for each exchange)*
-- *Receiving the Model's response and making a **decision**: Did the Model request an action (use a tool, read a file)? If so, execute it and send the result back for another turn. Did the Model produce a final message for the human? If so, display it and stop.*
-
-*This decision loop — "add another turn or halt" — is what distinguishes an Agentic AI from a simple chatbot. The Harness may execute multiple tool calls and multiple Model turns before anything appears on your screen. You type one prompt; behind the scenes, the system may cycle through several rounds of action and reasoning before presenting a result.*
-
-*The authentication and billing machinery lives here too. Your Harness connects to a remote Model (possibly running in a data center far away) through an API layer that verifies your identity and meters usage. This is how providers charge for the service.*
+- Usually a Large Language Model (LLM). 
+- The Model receives a bundle of text — our prompt, the conversation history, system instructions, other context — collectively the **payload**.
+- The Model processes this payload to produce a response. 
+- The response goes to the Harness (see below), not directly to our interaction window. 
+    - The Model may be telling the Harness to do something (run a command, read a file); not passing a message along to us. 
+    - This is the "agentic" part, in contrast with "chat": The Model can request actions, not just generate text.
 
 
-***3. Tools***
-
-*Tools are discrete capabilities the Harness can execute on the Model's behalf. Read a file. Run a shell command. Search the web. Write code to disk. Query a database. The Model doesn't do these things itself — it generates a structured request ("please read file X"), the Harness performs the action, and the result gets folded into the next payload.*
-
-*Tools are what make the AI "agentic." Without them, the Model can only talk. With them, it can act on your project — editing files, running tests, fetching documentation, and reporting results back to you. In `kiro`, the built-in tools include file reading and writing, terminal command execution, web search, and code analysis.*
 
 
-***4. Context & Steering***
+#### Part 2 The Harness
 
-*Everything that shapes the Model's behavior beyond its base training. This includes:*
+The Harness is an orchestrating program that sits between us the User and the Model. Often this program runs on our local machine. The Harness is responsible for:
 
-- *The conversation history (what you and the AI have said so far)*
-- *System prompts (hidden instructions that define the AI's role and constraints)*
-- ***Steering files**: persistent, reusable instructions you write and store in your project (in `.kiro/steering/`). These apply automatically to relevant conversations — for example, "always use pandas, not polars" or "follow our team's variable naming convention." Steering is how you onboard the AI to your project once rather than repeating yourself every session.*
-- *Injected file contents (when you reference a file in your prompt, its contents become part of the payload)*
+- Assembling the payload (prompt + history + tool registry + instructions + any injected context
+    - By 'tool registry' we mean a list of Harness capabilities...
+        - For example "This Harness can edit text files." 
+- Sending the payload to the Model via authenticated connection
+    - This incorporates access keys and a billing path: Model use is not free
+- Receiving the Model response and making a **decision**
+    - This is a central concept: The **decision loop**
+    - Did the Model request an action (use a tool, read a file)? 
+        - If so, execute it and send the result back to the Model
+        - These are reasonably called 'turns' and they do not involve the User
+    - Did the Model produce a final message for the human? 
+        - If so, display that message and stop (no more turns for this prompt)
 
-*Context is the scarce resource in this system. The context window is finite, and everything competes for space within it: your prompt, the history, the steering rules, the contents of referenced files, and the results of tool calls. Managing what goes in — and recognizing when you've outgrown the window — is a practical skill (see Rules 3.5 and 3.10).*
+#### Intermezzo remarks on some implications of the User - Harness - Model chain
 
 
-***5. Skills***
-
-*Skills are higher-level, reusable capabilities built on top of tools and steering. Where a tool is a single action ("read this file"), a skill is a coordinated workflow ("analyze this codebase for security vulnerabilities, then produce a summary report"). In `kiro`, skills can be defined and shared so that common multi-step processes don't need to be re-prompted from scratch each time.*
-
-*Think of it this way: Tools are verbs. Steering is grammar. Skills are recipes.*
+The **decision loop**:  *Add another turn or halt* is what distinguishes an agentic AI from a simple chatbot. The Harness may execute multiple tool calls (per Model instructions) and multiple Model turns before anything appears on our screen. We type one prompt and the system may cycle through several rounds of action and reasoning before presenting a result. Each cycle re-sends the entirety of the conversation; repetition intrinsic to the process.
 
 
-*A note on what this framework omits: There is a protocol called MCP (Model Context Protocol) that standardizes how the Harness discovers and connects to external tool providers — think of it as a "USB standard for AI tools." MCP matters if you're building or integrating custom tools, but for the purpose of using an Agentic AI as a research productivity tool, you can treat it as plumbing that operates beneath the surface. If you later find yourself wanting to connect the AI to a specialized database or departmental service, MCP is the mechanism that makes that possible without custom engineering.*
+**Cost**: The Harness authentication and billing machinery enables connecting to a remote Model commonly running in a data center far away. This means a User identity is associated with metered use.
+
+
+
+The Model is **stateless**: It retains nothing between exchanges. *Every time it is sent* a Harness payload includes the full conversation history. As a result: Long conversations eventually hit a limit called the **context window**. When the payload approaches the context window in size the model stops working properly. It will often compress the history in an attempt to avoid this behavior. As Users it falls to us to recognize this eventual context window overflow and start a new session. The logic of the situation goes like this: When progressing through a session: Document progress in a succinct steering document. When eventually a session is abandoned and a new one begins: The Harness will include the steering document in new exchanges with the Model so that the context is available in a condensed format.
+
+
+#### Part 3 Tools
+
+
+Tools are discrete capabilities the Harness can execute on the Model's behalf. Read a file. Run a shell command. Search the web. Write code to disk. Query a database. The Model doesn't do these things itself — it generates a structured request ("please read file X"), the Harness performs the action, and the result gets folded into the next payload on the next turn.
+
+
+Tools make the AI "agentic." Tools enable the Model to act on our project — editing files, running tests, fetching documentation, and reporting results back to us. In the `kiro` IDE, the built-in tools include file reading and writing, terminal command execution, web search, and code analysis. The subtle point is that while the Harness has a code analysis tool that it can use, it is the *Model* that directs what code to analyze and how. 
+
+
+#### Part 4 Context and Steering
+
+
+Context and steering considered together comprise everything that shapes the Model's behavior beyond its base training.
+
+
+- The conversation history (what we the User and the AI have said so far in a session)
+- System prompts (hidden instructions that define the AI's role and constraints)
+- ***Steering files**: persistent, reusable instructions we write and store in our project. These instructions apply automatically — for example, "always use rectangular, not polar coordinates" or "use the Camel variable naming convention" Steering is how we onboard the AI to our project in each new session without having to explain everything all over again.
+- Injected file contents: If we reference a file in a prompt, its contents become part of the payload.
+
+
+Context is the limited resource in the system. The context window is finite, and everything competes for space within it: our prompt, the session history, the steering rules, the contents of referenced files, and the results of tool calls. Managing what goes in — and recognizing when we have outgrown the window — is the central practical ability ('context engineering') that we develop.
+
+
+#### Part 5 Skills
+
+
+**Skills** are higher-level, reusable capabilities built on top of tools and steering. Where a tool is a single action ("read this file"), a skill is a coordinated workflow ("analyze this codebase for security vulnerabilities and produce a summary report"). Skills are so to speak *recipes* that enable us to run common multi-step processes without re-prompting from scratch each time.
+
+
+#### A bonus item for the agentic AI framework: The Model Context Protocol (MCP) 
+
+
+While the Harness has its set of tools ('edit a file' etcetera) we can imagine there might be other useful tools out there on the web ('get the weather forecast for Tucson'). There is a protocol called MCP (Model Context Protocol) that standardizes how the Harness discovers and connects to external tool providers. Standardization means it is (in theory) easy to connect to and use an MCP service; no custom engineering necessary.
+
+
+#### Winding up the framework
+
+
+This elaboration of an agentic AI framework is intended to demystify what happens when we hit Enter to send the next prompt. The most important practical element is building persistent context to avoid repetition across multiple sessions, each with its own gradually filling context window. With that let us resume an enumeration of "Rules" to facilitate our progress.
 
 
 ### Rule 3: Our most important *tactical* AI skill is *context engineering*
 
 
-The current term of art *context engineering* has replaced the earlier term *prompt engineering*. Prompts and established context together guide process of work with respect to some problem, task or project. Context can be understood as project-specific guidance: Once *established* context can keep the Agentic AI focused and productive. In the specific case of `kiro` context is recorded in *steering* (markdown) files. Prompts then follow as the give and take of the development or learning process. For more on context see sections 4 and 5 on the Agentic AI framework above. 
+The current term of art *context engineering* has replaced the earlier term *prompt engineering*. Prompts and established context together guide a process of work with respect to some problem, task or project. Once *established*, context can keep the agentic AI focused and productive. In the specific case of the `kiro` IDE, context is recorded in *steering* (markdown) files. Prompts then follow as the give and take of the development or learning process. For more on context see parts 4 and 5 on the agentic AI framework above. 
 
 
 #### Context engineering guidelines
@@ -209,36 +238,37 @@ The current term of art *context engineering* has replaced the earlier term *pro
 - **What not how**: Avoid the temptation to prescribe *how* a response is constructed; focus on *what you want to accomplish*
 - **Specificity**: Avoid ambiguity; work with concrete cases or examples when possible
 - **Consistency**: Refer back to and use language from previous prompt-response cycles
-- **Reflect**: Avoid rushing; consider whether some reflection on your part will advance the process more effectively. This can be quite difficult as it requires considerable energy compared to 'just write another prompt'.
+- **Reflect**: Avoid rushing; consider whether some reflection on our part will advance the process more effectively. This can be quite difficult as it requires considerable energy compared to 'just write another prompt'.
 - **Design**: Engineering a project includes *specifications*: State parameters, constraints, time frames up front: When feasible use persistent context files, not prompts. Think about indicating unintuitive things like team member skills.
-- **Argue**: Direct the AI to push back. Prompts like "challenge my assumptions" or "what am I not considering?" have the effect of pushing the Agentic AI to do more than produce agreeable responses. This is particularly valuable in research when one is searching for a path forward.
-- **Jujitsu**: Suppose a response is wrong or off-target. This is an opportunity to diagnose what the Agentic AI is doing in order to effectively redirect it. This is the conversational abstraction of our human debugging skills.
+- **Argue**: Direct the AI to push back. Prompts like "challenge my assumptions" or "what am I not considering?" have the effect of pushing the agentic AI to do more than produce agreeable responses. This is particularly valuable in research when one is searching for a path forward.
+- **Jujitsu**: Suppose a response is wrong or off-target. This is an opportunity to diagnose what the agentic AI is doing in order to effectively redirect it. This is the conversational abstraction of our human debugging skills.
 - **Anthropology**: Returning from the *persistent* nature of context such as steering files: During the prompt-response process of a session: Look for opportunities to build artifacts that expand established context. I think of this in two stages:
     - First stage: Recognize how a recent exchange has moved the needle and instruct the AI on how to write up the corresponding artifact.
     - Second stage: Read through the write-up to be sure that it captures what you intended (addressing *accountability deficit*). A down-side to skipping this part is that the project context (documentation) becomes a bloated series of vaguely connected paragraphs. 
 - **Tactics**: Concerning artifacts per the above: Ask for concrete results: Outlines, checklists, draft emails, code scaffolds. A prompt that produces a reusable tactical artifact can be more relevant than one that produces a good paragraph of explanation.
 - **Insight**: To reiterate this in learning mode: Be on the lookout for when a response causes you to say "ahh! I see it now!" Moments of insight usually deserve transcription.
-- **Reboot**: Know when to start fresh. If a conversation has drifted far from your original intent, or the AI seems to be "stuck" in a pattern, a new session with a clearer opening prompt often outperforms continuing to course-correct.
+- **Reboot**: Know when to start fresh. If a conversation has drifted far from our original intent, or the AI seems to be "stuck" in a pattern, a new session with a clearer opening prompt often outperforms continuing to course-correct.
 - **Persist**: As you realize good prompt-response dynamics: Be prepared to codify them as steering file instructions (persistent rules the AI follows across all future conversations in a project — see the Framework section above). 
 
 
 
-### Rule 4: Agentic AI has failure modes
+### Rule 4: agentic AI has failure modes
 
 
 
 - **Hallucination**: The AI confidently states something that is factually wrong — a nonexistent function, a fabricated citation, a plausible but incorrect statistic.
-- **Drift**: Over a long conversation the AI gradually loses track of your original intent and begins solving a different problem.
+- **Drift**: Over a long conversation the AI gradually loses track of our original intent and begins solving a different problem.
 - **Sycophancy**: The AI agrees with you rather than correcting you, reinforcing a mistaken assumption or belief you brought to the conversation.
 - **Overreach**: The AI makes changes or decisions beyond what you asked — refactoring code you wanted left alone, adding features you didn't request.
 - **Stale context**: The AI relies on information from earlier in the conversation that you have since revised or retracted, producing internally inconsistent output.
 - **Shallow plausibility**: The output reads well and sounds authoritative but collapses under scrutiny — correct syntax wrapping incorrect logic, or a well-structured argument built on a false premise.
-- **Tooling mismatch**: The AI suggests libraries, commands, or APIs that don't exist in your environment, version, or platform.
+- **Tooling mismatch**: The AI suggests libraries, commands, or APIs that don't exist in our environment, version, or platform.
 - **Rat-holing**: The AI simply does not have the knowledge to do what you want; but it will gamely keep trying, often while making reassuring statements like "Oh I see the problem now..." 
-    - In a memorable instance I was trying to get the AI to set up a computational task that would arrive at a well known result; but try as it might the AI was unable to succeed. Eventually and **without my noticing** the AI simply converted the code to a print statement that printed out the correct answer. This was an excellent example of *prompt exhaustion* (getting tired of the conversational process as it failed to make progress) leading to an invisible *accountability deficit*, in turn leading to *risk*: Had I not caught on (eventually) to the subterfuge of *just print out the right answer*, the Agentic AI 'solution' would have completely undermined the project.
+    - In a memorable instance I was trying to get the AI to set up a computational task that would arrive at a well known result; but try as it might the AI was unable to succeed. Eventually and **without my noticing** the AI simply converted the code to a print statement that printed out the correct answer. This was an excellent example of *prompt exhaustion* (getting tired of the conversational process as it failed to make progress) leading to an invisible *accountability deficit*, in turn leading to *risk*: Had I not caught on (eventually) to the subterfuge of *just print out the right answer*, the agentic AI 'solution' would have completely undermined the project.
+- **Slop**: The AI produces extraneous, bland, over-explanatory content that may superficially seem relevant. Upon scrutiny it proves to be meaningless, redundant, or otherwise unhelpful. 
 
 
-With these many pitfalls perhaps Agentic AI is not the great assistant it is advertised to be. I would say this is an open question best answered from direct experience.
+With these many pitfalls perhaps agentic AI is not the great assistant it is advertised to be. I would say this is an open question best answered from direct experience.
 
 
 ### Rule 5: Step back to Meta-vate
@@ -256,10 +286,10 @@ We can step back from prompt-response cycles to take advantage of the simulation
 **Example**: This project has an existing code base as well as a collection of supporting documents and publications. Examine this corpus through multiple lenses: Coding practice, consistency of code documentation, comprehensiveness of supporting documents, logical flow, readability, identifying redundancy, successful design in relation to stated objectives, other critical evaluations. Report on what would improve matters; and also evaluate whether the goals of the program are clearly stated.
 
 
-**Example**: I want to learn to be a responsible "open data / open code / open science" type of scientist. Tell me what that entails, what are best practices, what skills I will need (I understand that I should learn to use `git` for example); and help me develop a course of action that will realize this ambition. I particularly want to understand how to use testing (maybe 'unit tests'?) to reduce risk from dependence on code written by Agentic AI. I also want to know about what is involved in creating a Science Gateway so I can share my data with colleagues.
+**Example**: I want to learn to be a responsible "open data / open code / open science" type of scientist. Tell me what that entails, what are best practices, what skills I will need (I understand that I should learn to use `git` for example); and help me develop a course of action that will realize this ambition. I particularly want to understand how to use testing (maybe 'unit tests'?) to reduce risk from dependence on code written by agentic AI. I also want to know about what is involved in creating a Science Gateway so I can share my data with colleagues.
 
 
-**Example**: Read this document and provide a critique, emphasizing gaps in the narrative flow, how the content can be improved, and what is likely to be confusing to the reader. 
+**Example**: Read this document and provide a critique, emphasizing gaps in the narrative flow, how the content can be improved, and what is likely to be confusing to the reader. Also provide a short summary. 
 
 
 
@@ -288,7 +318,7 @@ Suppose we have a sensor dataset comprised of many smaller time-series datasets,
 
 Testing is a vast topic highly relevant to the repeated theme of 
 accountability deficit. While testing can be used to check the
-accuracy of Agentic AI-written code, it also raises the opportunity
+accuracy of agentic AI-written code, it also raises the opportunity
 for human engagement. When telling the AI to write test code we 
 are aware that any assumptions made by the AI in writing the original
 analysis code will also be made while writing test code. Pivoting
@@ -300,17 +330,28 @@ AI-written black box to make progress.
 ## Part 3: Activities
 
 
-Use an Agentic AI to...
+Engage an agentic AI to...
 
 
 - investigate / learn about / evaluate data security
     - Objective: Tied to the particular data system you choose
-- explore a topic you understand in some depth
+- explore a (non-work) topic you understand in some depth
+    - Examples: Catching salmon, beekeeping, embroidery
     - Objective: Evaluate the accuracy of the AI Agent's statements
     - Objective: Evaluate the AI Agent's capacity to contribute
 - locate, download and visualize some publicly available data
     - Investigate API and MCP servers
-    - Objective: Evaluate the Agentic AI's capacity to transform a question ('What is this data telling us?') into a known quantity that could inform and advance our research agenda.
+    - Work with the agentic AI to write code to download an appropriate dataset
+    - Objective: Evaluate the agentic AI's capacity to transform a question ('What is this data telling us?') into a known quantity that could inform and advance our research agenda.
 - learn how to write and use effective steering / guardrail content
-
+- magic wand project: Pick some aspect of your work (or beyond) that is a point of friction
+    - For example: My email spam management skills are inadequate in coping with how much spam I get
+    - Ask an agentic AI for training / procedures to up your game
+        - "I want to put some serious effort into reducing my time lost dealing with spam email."
+        - Meta-approach: "Interview me about my job practice and experience to help me identify efficiency improvement."
+- pick a topic -- perhaps in recreational mathematics -- that interests you and try for some learning
+    - Example line of context/prompting:
+        - "What exactly is the Collatz conjecture?" 
+        - "Is it true that if we solve it we can claim a one million dollar prize?"
+        - "How might we somehow visualize what is going on?"
 
